@@ -36,7 +36,8 @@ def convert_roman_to_arabic(data_input: str) -> str:
     return str(arabic)
 
 
-print(convert_roman_to_arabic(input('Inserisci un numero romano: ')))
+if __name__ == '__main__':
+    print(convert_roman_to_arabic(input('Inserisci un numero romano: ')))
 
 '''
 test_roman = open("numeri_romani.txt")
